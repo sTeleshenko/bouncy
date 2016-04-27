@@ -1,0 +1,13 @@
+{
+  "name": "bouncy",
+  "homepage": "https://github.com/sTeleshenko/bouncy",
+  "authors": [
+    "atikus <viachik.slav@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
