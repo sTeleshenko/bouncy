@@ -1,0 +1,7 @@
+@font-face {
+  font-family: BigJohn;
+  src: url(./fonts/BIGJOHN.otf);
+}
+body{
+  font-family: BigJohn;
+}
