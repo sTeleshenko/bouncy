@@ -2,6 +2,30 @@
   font-family: BigJohn;
   src: url(./fonts/BIGJOHN.otf);
 }
+@font-face {
+    font-family: OpenSansR;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: SourceSansProL;
+    src: url(./fonts/SourceSansPro-Light.ttf);
+}
 body{
+    font-family:OpenSansR;
+}
+h3 {
+    font-family:SourceSansProL;
+}
+header{
+    background:url("../images/main_bg.jpg") no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+}
+header a{
+    color: #ffffff;
+
+}
+.navbar-brand{
   font-family: BigJohn;
+
 }
