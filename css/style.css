@@ -20,17 +20,65 @@ header{
     background:url("../images/main_bg.jpg") no-repeat center;
     background-size: cover;
     color: #ffffff;
+    padding: 16% 0 24% 0;
+    position: relative;
 }
-header a{
+header a, header a:hover, header a:visited{
     color: #ffffff;
-
 }
-.navbar-brand{
-  font-family: BigJohn;
+.navbar{
+    margin: 20px 0 0 0;
+    border: none;
 }
 .navbar-nav{
-  padding: 10px 0;
+    padding: 10px 0;
 }
 .navbar-nav > li > a{
-  padding: 5px 20px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+    background: none;
+}
+.nav li a.active{
+    background: none;
+    padding: 4px 19px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+}
+.navbar-brand{
+    font-family: BigJohn;
+    font-size:25px;
+    line-height: 13px;
+}
+header h1{
+    font-size: 35px;
+    font-family:SourceSansProL;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+}
+header p{
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.read-more{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background: #19bd9a;
+}
+.read-more span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
