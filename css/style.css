@@ -27,5 +27,10 @@ header a{
 }
 .navbar-brand{
   font-family: BigJohn;
-
+}
+.navbar-nav{
+  padding: 10px 0;
+}
+.navbar-nav > li > a{
+  padding: 5px 20px;
 }
