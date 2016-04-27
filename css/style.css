@@ -10,11 +10,15 @@
     font-family: SourceSansProL;
     src: url(./fonts/SourceSansPro-Light.ttf);
 }
+@font-face {
+    font-family: SourceSansProR;
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+}
 body{
     font-family:OpenSansR;
 }
 h3 {
-    font-family:SourceSansProL;
+    font-family:SourceSansProR;
 }
 header{
     background:url("../images/main_bg.jpg") no-repeat center;
@@ -81,4 +85,25 @@ header p{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+#about{
+    padding: 5% 0 5% 0;
+}
+#about h3{
+    font-size: 20px;
+    color: #333b46;
+    text-transform: uppercase;
+}
+#about p{
+    font-size: 14px;
+    font-family:OpenSansR;
+    color: #81868e;
+    padding: 5% 0 10% 0;
+    line-height: 1.7;
+}
+#about a{
+    color: #333b46;
+    border: 1px solid #333b46;
+    border-radius: 20px;
+    padding:10px 30px;
 }
