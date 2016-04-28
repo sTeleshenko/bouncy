@@ -1,11 +1,13 @@
 @font-face {
-  font-family: BigJohn;
-  src: url(./fonts/BIGJOHN.otf);
+    font-family: BigJohn;
+    src: url(./fonts/BIGJOHN.otf);
 }
+
 @font-face {
     font-family: OpenSansR;
     src: url(./fonts/OpenSans-Regular.ttf);
 }
+
 @font-face {
     font-family: OpenSansB;
     src: url(./fonts/OpenSans-Bold.ttf);
@@ -15,70 +17,83 @@
     font-family: SourceSansProL;
     src: url(./fonts/SourceSansPro-Light.ttf);
 }
+
 @font-face {
     font-family: SourceSansProR;
     src: url(./fonts/SourceSansPro-Regular.ttf);
 }
-body{
-    font-family:OpenSansR;
+
+body {
+    font-family: OpenSansR;
 }
+
 h3 {
-    font-family:SourceSansProR;
+    font-family: SourceSansProR;
     text-transform: uppercase;
     font-size: 20px;
     color: #333b46;
     letter-spacing: 4px;
 }
-header{
-    background:url("../images/main_bg.jpg") no-repeat center;
+
+header {
+    background: url("../images/main_bg.jpg") no-repeat center;
     background-size: cover;
     color: #ffffff;
     padding: 16% 0 24% 0;
     position: relative;
 }
-header a, header a:hover, header a:visited{
+
+header a, header a:hover, header a:visited {
     color: #ffffff;
 }
-.navbar{
+
+.navbar {
     margin: 20px 0 0 0;
     border: none;
 }
-.navbar-nav{
+
+.navbar-nav {
     padding: 10px 0;
 }
-.navbar-nav > li > a{
+
+.navbar-nav > li > a {
     padding: 5px 20px;
     font-size: 16px;
 }
 
-.nav > li > a:hover, .nav > li > a:focus{
+.nav > li > a:hover, .nav > li > a:focus {
     background: none;
 }
-.nav li a.active{
+
+.nav li a.active {
     background: none;
     padding: 4px 19px;
     border: 1px solid #ffffff;
     border-radius: 40px;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: BigJohn;
-    font-size:25px;
+    font-size: 25px;
     line-height: 13px;
 }
-header h1{
+
+header h1 {
     font-size: 35px;
-    font-family:SourceSansProL;
+    font-family: SourceSansProL;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 30px;
     letter-spacing: 8px;
 }
-header p{
+
+header p {
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
 }
-.read-more{
+
+.read-more {
     position: absolute;
     left: 50%;
     bottom: 5%;
@@ -89,111 +104,198 @@ header p{
     border-radius: 100%;
     background: #19bd9a;
 }
-.read-more span{
+
+.read-more span {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
 /* first section */
-#about{
+#about {
     padding: 5% 0 5% 0;
 }
-#about h3{
+
+#about h3 {
     margin-bottom: 45px;
 }
-.under-header{
-    font-family:OpenSansR;
+
+.under-header {
+    font-family: OpenSansR;
     color: #81868e;
     line-height: 25px;
     font-size: 16px;
 }
-#about p{
+
+#about p {
     letter-spacing: 1px;
     line-height: 20px;
     color: #81868e;
     margin-bottom: 45px;
 }
-#about a{
+
+#about a {
     color: #333b46;
     border: 1px solid #333b46;
     border-radius: 20px;
-    padding:10px 30px;
+    padding: 10px 30px;
 }
+
 /* second section */
-.details-about{
+.details-about {
     background: #f3f3f3;
     padding-top: 6%;
 }
-.details-about h3{
+
+.details-about h3 {
     margin-top: 0;
     margin-bottom: 35px;
 }
-.details-about p{
+
+.details-about p {
     margin-bottom: 60px;
 }
-.details-about ul{
+
+.details-about ul {
     list-style-type: none;
     padding: 0;
     margin: 0 0 50px 0;
 }
-.details-about ul li{
+
+.details-about ul li {
     display: inline-block;
     background: #81868e;
     border-radius: 100%;
     padding: 5px;
 }
-.details-about ul li:not(:last-child){
+
+.details-about ul li:not(:last-child) {
     margin-right: 27px;
 }
-.details-about ul li.active{
+
+.details-about ul li.active {
     background: #19bd9a;
 }
-.details-about h5{
+
+.details-about h5 {
     font-size: 20px;
     color: #464646;
     margin-bottom: 30px;
 }
-.creative-ideas{
-    font-size:16px;
+
+.creative-ideas {
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 25px;
 }
-.green-b{
+
+.green-b {
     color: #19bd9a;
-    font-family:OpenSansB;
+    font-family: OpenSansB;
 }
-.black-b{
+
+.black-b {
     color: #636971;
-    font-family:OpenSansB;
+    font-family: OpenSansB;
 }
-.featured-project{
+
+.featured-project {
     padding: 75px 0 35px 0;
 }
-.featured-project h3{
+
+.featured-project h3 {
     margin: 0 0 35px 0;
 }
-.featured-work{
+
+.featured-work {
     display: flex;
 }
-.featured-work div{
-  position: relative;
+
+.featured-work div {
+    position: relative;
 }
-.featured-work div:first-child{
+
+.featured-work div:first-child {
     flex-basis: 52.6%;
 }
-.featured-work div + div{
+
+.featured-work div + div {
     flex-basis: 25%;
 }
-.featured-work div img{
-  width: 100%;
+
+.featured-work div img {
+    width: 100%;
 }
-.featured-work div a{
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(123, 123, 123, .5)
+
+.featured-work div a > span {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .7);
+    transition: 0.3s ease;
+}
+
+.featured-work a span span {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: SourceSansProL;
+    text-transform: uppercase;
+}
+
+.featured-work a {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.featured-work div:first-child a:hover>span{
+    transform: translateX(-100%);
+}
+.featured-work div:nth-child(even) a:hover>span {
+    transform: translateY(-100%);
+}
+.featured-work div:last-child a:hover>span {
+    transform: translateY(100%);
+}
+.featured-footer{
+    background: url("../images/featured_footer.jpg");
+    font-size: 20px;
+    color: #ffffff;
+    padding: 25px 0;
+    margin-top:-15px;
+    position: relative;
+    z-index: 2;
+}
+.white-b{
+    font-family:OpenSansB;
+}
+.featured-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-footer a{
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+}
+#services{
+    padding: 75px 0 130px 0;
+    background: #f3f3f3;
+}
+#services h3{
+    margin: 0;
+}
+#services p{
+    margin-top: 35px;
 }
