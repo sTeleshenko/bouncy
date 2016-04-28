@@ -176,9 +176,24 @@ header p{
 .featured-work{
     display: flex;
 }
-.featured-work img:first-child{
-    flex-basis: 50%;
+.featured-work div{
+  position: relative;
 }
-.featured-work img + img{
+.featured-work div:first-child{
+    flex-basis: 52.6%;
+}
+.featured-work div + div{
     flex-basis: 25%;
+}
+.featured-work div img{
+  width: 100%;
+}
+.featured-work div a{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(123, 123, 123, .5)
 }
