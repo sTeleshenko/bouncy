@@ -7,6 +7,11 @@
     src: url(./fonts/OpenSans-Regular.ttf);
 }
 @font-face {
+    font-family: OpenSansB;
+    src: url(./fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
     font-family: SourceSansProL;
     src: url(./fonts/SourceSansPro-Light.ttf);
 }
@@ -19,6 +24,10 @@ body{
 }
 h3 {
     font-family:SourceSansProR;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333b46;
+    letter-spacing: 4px;
 }
 header{
     background:url("../images/main_bg.jpg") no-repeat center;
@@ -86,24 +95,90 @@ header p{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* first section */
 #about{
     padding: 5% 0 5% 0;
 }
 #about h3{
-    font-size: 20px;
-    color: #333b46;
-    text-transform: uppercase;
+    margin-bottom: 45px;
 }
-#about p{
-    font-size: 14px;
+.under-header{
     font-family:OpenSansR;
     color: #81868e;
-    padding: 5% 0 10% 0;
-    line-height: 1.7;
+    line-height: 25px;
+    font-size: 16px;
+}
+#about p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #81868e;
+    margin-bottom: 45px;
 }
 #about a{
     color: #333b46;
     border: 1px solid #333b46;
     border-radius: 20px;
     padding:10px 30px;
+}
+/* second section */
+.details-about{
+    background: #f3f3f3;
+    padding-top: 6%;
+}
+.details-about h3{
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.details-about p{
+    margin-bottom: 60px;
+}
+.details-about ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+.details-about ul li{
+    display: inline-block;
+    background: #81868e;
+    border-radius: 100%;
+    padding: 5px;
+}
+.details-about ul li:not(:last-child){
+    margin-right: 27px;
+}
+.details-about ul li.active{
+    background: #19bd9a;
+}
+.details-about h5{
+    font-size: 20px;
+    color: #464646;
+    margin-bottom: 30px;
+}
+.creative-ideas{
+    font-size:16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.green-b{
+    color: #19bd9a;
+    font-family:OpenSansB;
+}
+.black-b{
+    color: #636971;
+    font-family:OpenSansB;
+}
+.featured-project{
+    padding: 75px 0 35px 0;
+}
+.featured-project h3{
+    margin: 0 0 35px 0;
+}
+.featured-work{
+    display: flex;
+}
+.featured-work img:first-child{
+    flex-basis: 50%;
+}
+.featured-work img + img{
+    flex-basis: 25%;
 }
